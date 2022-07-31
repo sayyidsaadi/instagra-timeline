@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+body{
+    background: #FAFAFA;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0px
+}
+a{
+    text-decoration: none;
+}
+.ig-container-fluid{
+    width: 100%;
+}
+.ig-container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+/*Ig Header */
+.ig-header-bg{
+    background: #fff;
+    border-bottom: 1px solid #d9d1d1;
+    padding: 7px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 999999999;
+}
+.ig-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ig-header-middle{
+    position: relative;
+}
+.ig-header-middle i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.ig-header-middle input {
+    width: 270px;
+    padding: 5px 33px;
+    border: none;
+    border-radius: 5px;
+    background: #EFEFEF;
+}
+.ig-header-right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ig-header-right ul li{
+    margin-right: 20px
+}
+.ig-header-right ul li:last-child{
+    margin-right: 0px
+}
+.ig-header-right ul li a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/*Ig Story */
+.ig_stry{
+    margin-top: 70px;
+}
+.ig-body{
+    display: flex;
+    justify-content: space-between;
+}
+.ig-body-left{
+    flex: 6;
+}
+.story-box img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 3px
+}
+.story-box-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.story-box{
+    cursor: pointer;
+}
+.story-box p{
+    font-size: 13px
+}
+
+/*Ig user Post */
+.user-top-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-top-info-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown a{
+     border: none;
+}
+.dropdown a::after{
+    content: '';
+    display: none;
+}
+.profile-text{
+    margin-left: 10px;
+}
+.profile-text h6{
+    cursor: pointer;
+}
+.profile-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.dropdown-menu{
+    transform: translate(-127px, 38px)!important;
+}
+
+
+.ig-body-right{
+    flex: 4;
+}
+
+.post_bottom{
+    padding: 15px;
+}
+.post_btm_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post_btm_top_left ul{
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post_btm_top_left ul li{
+    margin-right: 15px;
+}
+.post_btm_top_left ul li:last-child{
+    margin-right: 0px;
+}
+
+.post_btm_ft{
+    padding-top: 15px;
+}
+.post_btm_ft h6 {
+    font-size: 15px;
+}
+.post_btm_ft p {
+    font-size: 14px;
+}
+
+
+/* Body Right  */
+.ig-body-right{
+    padding-left: 20px;
+}
+.user-profile-info-left img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+.user-profile-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-profile-info-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-profile-info-text{
+    margin-left: 10px;
+}
+.user-profile-info-text p {
+    font-size: 14px;
+    cursor: pointer;
+}
+.user-profile-info-text h6{
+    font-size: 12px;
+    color: #8e8e8e;
+}
+.suggestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.suggest-left h6{
+    color: #8e8e8e;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.suggets-right a{
+    display: block;
+    font-size: 13px;
+}
+.audience-info-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audience-info-left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.audience-info-right a{
+    font-size: 12px;
+}
+
+.ig-right-footer ul{
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.ig-right-footer ul li {
+    margin-right: 25px;
+}
+.ig-right-footer ul li a{
+    display: inline-block;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #aca8a8;
+}
